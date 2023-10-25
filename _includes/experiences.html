@@ -4,7 +4,7 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
     </span>
     {{ experiences.title }}
   </h2>
@@ -27,6 +27,20 @@
     <div class="details">
       {{ experience.details | markdownify }}
     </div><!--//details-->
+    {% endif %}
+
+    {% if experience.impact %}
+    <div class="impact">
+     <b>Ergebnis:</b> {{ experience.impact | markdownify }}
+    </div><!--//impact-->
+    {% endif %}
+    {% if experience.skills %}
+    <div class="skills">
+     <b>Genutzte Kompetenzen:</b> {{ experience.skills | markdownify }}
+    </div><!--//skills-->
+    {% endif %}
+    {% if forloop.last == false %}
+  <!--  <hr> -->
     {% endif %}
 
   </div><!--//item-->

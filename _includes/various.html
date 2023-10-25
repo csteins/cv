@@ -1,0 +1,39 @@
+{% assign various = site.data.data.various %}
+{% if various %}
+<section class="section various-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-award fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ various.title }}
+  </h2>
+
+  {% if various.intro %}
+  <div class="intro">
+      <p>{{ various.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for achievement in various.achievements %}
+    <div class="item">
+      <div class="upper-row">
+        <span class="achievement-title">
+          {% if achievement.link %}
+          <a href="{{ achievement.link }}" target="_blank">{{ achievement.title }}</a>
+          {% else %}
+          {{ achievement.title }}
+          {% endif %}
+        </span>
+        <div class="time">{{ achievement.time }}</div>
+      </div><!--//upper-row-->
+      {% if achievement.tagline %}
+      <span class="achievement-tagline">{{ achievement.tagline | markdownify }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

@@ -5,7 +5,7 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-code fa-stack-1x fa-inverse"></i>
     </span>
     {{ projects.title }}
   </h2>
@@ -18,7 +18,7 @@
 
   {% for project in projects.assignments %}
     <div class="item">
-
+      <div class="upper-row">
       <span class="project-title">
         {% if project.link %}
         <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
@@ -26,11 +26,28 @@
         {{ project.title }}
         {% endif %}
       </span>
+        <div class="time">{{ project.time }}</div>
+      </div><!--//upper-row-->
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
-      {% endif %}
+    {% if project.details %}
+    <div class="details">
+      {{ project.details | markdownify }}
+    </div><!--//details-->
+    {% endif %}
 
+    {% if project.impact %}
+    <div class="impact">
+     <b>Ergebnis:</b> {{ project.impact | markdownify }}
+    </div><!--//impact-->
+    {% endif %}
+    {% if project.skills %}
+    <div class="skills">
+     <b>Genutzte Kompetenzen:</b> {{ project.skills | markdownify }}
+    </div><!--//skills-->
+    {% endif %}
+    {% if forloop.last == false %}
+    <hr>
+    {% endif %}
     </div><!--//item-->
   {% endfor %}
 

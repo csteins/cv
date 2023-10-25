@@ -1,45 +1,90 @@
-@media print
-   {
-    @page {
-        size: A4;
-    }
-    body {
-       font-size: 12pt;
-    }
+@media print {
+   @page {
+      size: A4;
+   }
 
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
-    }
+   body {
+      font-size: 11pt;
+      background-color: white;
+      margin: 0px;
+      padding: 0px;
+   }
+
+   .wrapper {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+   }
+
+   .main-wrapper {
+      padding: 1cm;
+      padding-top: 0cm;
+   }
+
    .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
-    }
-
-    .remove-container.container-block {
-       display: none;
-    }
-
-    footer {
-       display: none;
-    }
-
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
-    }
-
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
+      float: right;
+      color: black !important;
+      -webkit-print-color-adjust: exact;
    }
 
+   .sidebar-wrapper {
+      position: static;
+      float: right;
+      -webkit-print-color-adjust: exact;
+      height: 100%;
+   }
+
+   .sidebar-wrapper .container-block {
+      padding-top: 15px;
+      padding-bottom: 15px;
+   }
+
+   .remove-container.container-block {
+      display: none;
+   }
+
+   footer {
+      display: none;
+   }
+
+   hr {
+      margin-top: 15px;
+   }
+
+   .time {
+      font-size: 9pt;
+   }
+
+   .skillset .item {
+      display: flex;
+   }
+
+   .level-title {
+      flex: 0 !important;
+      min-width: 150px;
+   }
+
+   .level-bar {
+      flex-grow: 1;
+   }
+
+   .skills-section,
+   .various-section {
+      page-break-before: always;
+   }
+
+   .main-wrapper .section {
+      margin-top: 1.5cm;
+      margin-bottom: 1.5cm;
+   }
+
+   .main-wrapper .experiences-section .item {
+      page-break-inside: avoid;
+      margin-bottom: 0px;
+      margin-top: 0cm;
+      padding-top: 30px;
+   }
+
+   .various-section {
+      height: 25.7cm;
+   }
 }
