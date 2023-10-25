@@ -148,7 +148,7 @@ projects:
     title: Nebenprojekte
     assignments:
       - title:	mbTester MacBook Test Software
- #       link: "https://mbtester.com/"
+        link: "https://mbtester.com/"
         time: 01/2018 - 
         details: Entwurf und Implementierung von Testsoftware für die Hardware-Diagnose von MacBooks.
         contribution: |
@@ -172,11 +172,11 @@ various:
       - title: Systemische Ausbildung   
         time: 02/2018 - 10/2020
         tagline: "Um meinen Führungskompetenzen zu stärken habe, ich eine zweijährige Ausbildung zum systemischen Organisations- und Familienaufsteller und lösungsorientierten Coach erfolgreich absolviert."
-      - title: Start-Up Week Chikwawa, Malawi   
-#        link: "https://www.facebook.com/profile.php?id=100083391822909"
+      - title: Start-up Week Chikwawa, Malawi   
+        link: "https://www.facebook.com/profile.php?id=100083391822909"
         time: 03/2018
-        tagline: "Meine Frau und ich reisten nach Malawi, um für 52 Jugendliche eine Start-Up Woche zu organisieren. In sechs Tagen halfen wir ihnen, ihre Stärken zu erkennen und Geschäftsideen zu entwickeln, die ihnen und ihrem Land zugutekommen könnten."
-      - title: Entwicklungspartnerschaft Diozöse Chikwawa, Malawi   
+        tagline: "Meine Frau und ich reisten nach Malawi, um für 52 Jugendliche eine Start-up Woche zu organisieren. In sechs Tagen halfen wir ihnen, ihre Stärken zu erkennen und Geschäftsideen zu entwickeln, die ihnen und ihrem Land zugutekommen könnten."
+      - title: Entwicklungspartnerschaft Diözese Chikwawa, Malawi   
         time: 2010 - 
         tagline: "Unterstützung der Diözese durch Öffentlichkeitsarbeit in Deutschland und Bereitstellung von grundlegender Entwicklungshilfe mit einem Schwer&shy;punkt auf Bildung."
       - title: Selbstständigkeit mit 16 Jahren
