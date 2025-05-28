@@ -1,0 +1,212 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Christian Steins
+    tagline: IT Team Leader
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: info@christian-steins.de
+    phone: +49 160 / 95 93 43 41
+   # timezone: CET/CEST
+    citizenship: German
+    maritalstatus: married, two daughters
+    website: christian-steins.de #do not add http://
+    linkedin: christiansteins
+    # xing: Christian_Steins
+    github: csteins
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: 
+
+    languages:
+      title: Languages
+      info:
+        - idiom: German
+          level: Native language
+
+        - idiom: English
+          level: Fluent
+
+    interests:
+      title: Interests
+      info:
+        - item: Taekwondo
+          link:
+        - item: Climbing
+          link:
+        - item: Sailing
+          link:
+        - item: Forest & Nature
+          link:
+
+career-profile:
+    title: About Me
+    summary: |
+      With over 20 years of IT experience and having started my own business at the age of 16, I have developed solid technical and leadership skills. In roles such as Lead Support Manager at akoro.de or Head of IT Operations at Meinestadt.de, I have built teams and optimized processes. My systemic training has deepened my leadership qualities and given me insights into organizational structures. My commitment and entrepreneurial spirit make me well-suited for leading IT positions.
+
+
+education:
+    title: Education
+    info:
+      - degree: Master of Science in IT-Systems Engineering
+        university: Hasso Plattner Institute
+        time: 2009 - 2012
+        details: 
+      - degree: Bachelor of Science in Media and Communications Informatics
+        university: Reutlingen University
+        time: 2004 - 2008
+        details: 
+
+experiences:
+    title: Experiences
+    info:
+      - role: Parental Leave
+        time: 07/2024 -
+      - role: "Lead Support Manager"
+        time: 11/2023 - 06/2024
+        company: akoro.de, remote
+        details: |
+          Rebuilding and restructuring the Customer Support team of an agricultural platform.
+          - Responsible for support quality
+          - Training of new employees
+          - Technical analysis of second-level support cases
+          - Communication with various stakeholders
+          - Optimization of support processes
+#        impact: Improvement of the development process and documentation
+        skills: Personnel responsibility for 2 employees, project management, stakeholder management, Jira, PHP, SQL
+
+      - role: "Role Change: Senior Software Developer"
+        time: 03/2022 - 09/2023
+        company: akoro.de, remote
+        details: |
+          Restructuring and further development of an agricultural platform. The aim was a role change to update my practical skills in software development.
+          - Further development, error analysis, and documentation
+          - Responsible for further development of data interfaces
+          - Communication with various stakeholders and project management
+          - Support and advice to the team leader
+        impact: Improvement of the development process and documentation
+        skills: PHP, Symfony, SQL, Elasticsearch, Cypress, PHPUnit, Jira, REST API, CI/CD Pipelines, Shell, Docker
+
+ #     - role: Founder
+ #       time: 04/2000 – 12/2021
+ #       company: Steins & Steins, Dortmund
+ #       details: Development and implementation of several business ideas, including web development and intelligent MacBook repair service.
+ #       impact:  
+ #       skills: Entrepreneurship, Business Development, PHP, SQL
+
+ #     - role: Part-time Parental Leave
+ #       time: 06/2020 - 08/2021
+          
+      - role: Head of IT Operations
+        time: 11/2018 - 05/2020
+        company: Meinestadt.de, Cologne
+        details: |
+          Optimization and restructuring of the IT operations team.
+          - Team leadership and team building
+          - Project management in critical projects
+          - Stakeholder management / process optimizations
+          - Skills development of team members
+        impact: |
+          - Reduction of significant business risks (data center scaling, outdated telephone systems, lack of CDN, end-user security, cleanup of outdated databases)
+          - Improved team morale
+        skills: Personnel responsibility for 7 employees, budget responsibility, stakeholder management, Jira, PHP, SQL
+
+      - role: Executive Support IT
+        time: 03/2018 - 10/2018
+        company: Meinestadt.de, Cologne
+        details: | 
+          Detailed representation of the IT department for the management team.
+          Management of various projects to minimize business risks
+        impact:  
+          Better understanding of legacy systems and team dynamics, reduced business risk
+        skills: Business analysis, stakeholder management, risk analysis
+
+      - role: Team Leader Software Development
+        time: 09/2015 - 07/2017
+        company: Vertical Media, Berlin
+        details: |
+          Refactoring of an outdated, poorly structured news website (4 million page views per month). Hiring new developers including team building.
+        impact: |
+         - Improvement of infrastructure, code, and documentation
+         - Better team culture and training of colleagues
+        skills: Personnel responsibility for 2 employees, budget responsibility, project management, stakeholder management, Asana, PHP, SQL
+
+various:
+    title: Other Achievements
+    achievements:
+      - title: Systemic Training   
+        time: 02/2018 - 10/2020
+        tagline: "To strengthen my leadership skills, I successfully completed a two-year training as a systemic organizational and family constellator and solution-oriented coach."
+      - title: Start-up Week Chikwawa, Malawi   
+        link: "https://www.facebook.com/profile.php?id=100083391822909"
+        time: 03/2018
+        tagline: "My wife and I traveled to Malawi to organize a start-up week for 52 young people. In six days, we helped them discover their strengths and develop business ideas that could benefit them and their country."
+      - title: Self-employment at 16
+        time: 04/2000
+        tagline: "Due to my early entrepreneurial spirit, I overcame various bureaucratic hurdles and was able to become self-employed at the age of 16."
+skills:
+    title: Core Skills
+    toolset:
+      - name: Project Management
+        level: 100%
+        text: Expert, over 10 years of experience, countless projects
+      - name: Team Leadership
+        text: Expert, over 5 years of experience, several team leadership roles
+        level: 100%
+      - name: Change Management
+        text: Expert, over 5 years of experience, several projects
+        level: 100%
+      - name: Personnel Development
+        text: Expert, over 5 years of experience, successfully developed many employees
+        level: 100%
+      - name: Risk Management
+        text: Expert, over 5 years of experience, several projects
+        level: 100%
+      - name: Entrepreneurship
+        level: 100%
+        text: Expert, over 20 years of self-employment 
+      - name: PHP
+        level: 100%
+        text: Expert, over 20 years of experience, countless projects 
+      - name: SQL
+        level: 100%
+        text: Expert, over 20 years of experience, countless projects
+      - name: Jira
+        level: 66%
+        text: Advanced, over 5 years of experience, several projects
+     # - name: HTML & CSS
+     #   level: 66%
+     #   text: Advanced, over 20 years of experience, several projects
+      - name: Cypress
+        text: Basic knowledge, several projects
+        level: 33%
+      - name: PHPUnit
+        text: Basic knowledge, several projects
+        level: 33%
+      - name: Docker
+        text: Basic knowledge, several projects
+        level: 33%
+      - name: CI/CD Pipelines
+        text: Basic knowledge, several projects
+        level: 33%
+      - name: Elasticsearch
+        text: Basic knowledge, several projects
+        level: 33%
+    legend: |
+        ###### Overview of Skill Levels
+        - **Beginner:** Basic knowledge, occasionally need help.
+        - **Advanced:** Solid expertise, work independently, occasionally need help with complex problems.
+        - **Expert:** Handle complex challenges autonomously, share knowledge, able to make decisions.
