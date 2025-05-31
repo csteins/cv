@@ -21,7 +21,7 @@ sidebar:
   website: christian-steins.de #do not add http://
   linkedin: christiansteins
   # xing: Christian_Steins
-  github: csteins
+  #github: csteins
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
@@ -76,6 +76,10 @@ experiences:
       company: akoro.de, remote
       details: |
         Überarbeitung der Dokumentenverwaltung einer landwirtschaftlichen Plattform.
+        - Verantwortlich für die Weiterentwicklung von Funktionen rund um Buchhaltungsbelege, Nährstoffbilanzen, Lagerverwaltung und Anlieferungen
+        - Erstellung und Priorisierung von Implementierungstickets sowie Planung und Kontrolle der Umsetzung
+        - Steuerung des Projekterfolgs von der technischen Anforderungsanalyse und ERP-Integration bis zu Zeit-/Ressourcenplanung und Stakeholdermanagement
+
       #        impact: Verbesserung des Entwicklungsprozesses und der Dokumentation
       skills: Projektmanagement, Stakeholdermanagement, Changemanagement, Jira
 
@@ -89,7 +93,7 @@ experiences:
         - Technische Analysen von Second-Level-Support-Fällen
         - Kommunikation mit verschiedenen Stakeholdern
         - Optimierung der Support-Prozesse
-      #        impact: Verbesserung des Entwicklungsprozesses und der Dokumentation
+      impact: Neuaufbau eines stabilen, hochwertigen Supportteams mit verbesserten Prozessen
       skills: Personalverantwortung für 2 Mitarbeiter, Projektmanagement, Stakeholdermanagement, Jira, PHP, SQL
     - role: Senior Software-Entwickler
       time: 03/2022 - 09/2023
